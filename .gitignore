@@ -5,6 +5,20 @@ data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
+# Credentials - never commit these. AWS IAM downloads access keys as
+# <username>_accessKeys.csv, which a literal "aws_credentials.csv" rule misses.
+*accessKeys*.csv
+*credentials*.csv
+credentials
+.env
+.env.*
+!.env.example
+.aws/
+*.pem
+*.key
+*.p12
+*.pfx
+
 # Python
 __pycache__/
 *.py[cod]

@@ -1,5 +1,7 @@
 # Fraud Detection Pipeline
 
+![CI](https://github.com/ogulcanhayirli/fraud-detection-pipeline/actions/workflows/ci.yml/badge.svg)
+
 Card-transaction fraud detection on the Sparkov synthetic dataset
 ([Kaggle: `kartik2112/fraud-detection`](https://www.kaggle.com/datasets/kartik2112/fraud-detection),
 ~1.85M transactions, ~0.5% fraud).
